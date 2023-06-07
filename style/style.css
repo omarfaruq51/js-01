@@ -1,0 +1,31 @@
+.demo{
+  font-size: 30px;
+  font-weight: 900;
+  color: goldenrod;
+}
+.calculator input {
+	padding: 10px 2px;
+	background: navajowhite;
+	color:  black;
+}
+  .calculator table tr td button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .mywatch {
+    background-color: black;
+    color: white;
+    width: 300px;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .hour {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .dates {
+    font-size: 22px;
+    color: red;
+  }

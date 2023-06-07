@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta tag start -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="revisit-after" content="2 days">
+  <meta name="author" content="Omar Faruq">
+  <!-- Bootstrap CSS links -->
+  <link rel="stylesheet" href="style/bootstrap.css">
+  <!-- CSS links -->
+  <link rel="stylesheet" href="style/style.css">
+  <!-- Media CSS links -->
+  <link rel="stylesheet" href="style/media.css">
+</head>
+
+<body>
+  <div class="container">
+    <h4>Simple javascript project-(Gussing Game)</h4>
+    <div class="demo">Guss the Number and see how many times <br>luck favour with you</div>
+    <button class="btn btn-primary mt-2" onclick="guess()">Please Click Here</button>
+  </div>
+  
+  <hr>
+  <div class="container">
+    <h4 class="mb-3">Simple javascript project-(Slider)</h4>
+    <div class="slider_img mb-3">
+      <img src="images/img-1.JPG" alt="">
+    </div>
+    <button class="prev btn btn-primary" onclick="previous()">Prev</button>
+    <button class="next btn btn-primary" onclick="next()">Next</button>
+</div>
+<hr>
+<div class="container">
+  <h4>Simple javascript project-(Calculator)</h4>
+  <div class="calculator">
+    <input type="text" name="screen" id="answer" readonly>
+    <table>
+      <tr>
+        <td><button onclick="calculator('(')">(</button></td>
+        <td><button onclick="calculator(')')">)</button></td>
+        <td><button style="background-color: #f01600; font-weight: bold; color: #ecf0f1;" onclick="deleteMe()">C</button></td>
+        <td><button onclick="calculator('%')">%</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="calculator('7')">7</button></td>
+        <td><button onclick="calculator('8')">8</button></td>
+        <td><button onclick="calculator('9')">9</button></td>
+        <td><button onclick="calculator('*')">X</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="calculator('4')">4</button></td>
+        <td><button onclick="calculator('5')">5</button></td>
+        <td><button onclick="calculator('6')">6</button></td>
+        <td><button onclick="calculator('-')">-</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="calculator('1')">1</button></td>
+        <td><button onclick="calculator('2')">2</button></td>
+        <td><button onclick="calculator('3')">3</button></td>
+        <td><button onclick="calculator('+')">+</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="calculator('0')">0</button></td>
+        <td><button style="font-weight: bold;" onclick="calculator('.')">.</button></td>
+        <td><button onclick="calculator('/')">/</button></td>
+        <td><button style="background-color: #25db72; font-weight: bold; color: #ecf0f1;" onclick="answer()">=</button></td>
+      </tr>
+    </table>
+    <hr style="max-width: 50vw;">
+</div>
+<!-- <div class="container">
+  <h4>Simple javascript project-(Calender)</h4>
+   <div class="days"></div>
+   <div class="cdays"></div>
+</div> -->
+
+<div class="container">
+  <h4>Simple javascript project-(Digital Clock)</h4>
+
+  <div class="mywatch">
+    <div class="hour"></div>
+    <div class="periods"></div>
+    <div class="dates"></div>
+
+  </div>
+</div>
+
+
+
+
+ <!-- javascript links -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
