@@ -29,3 +29,51 @@
     font-size: 22px;
     color: red;
   }
+  .slide_elements {
+    background-color: aqua;
+    padding: 90px 30px;
+    width: 300px;
+    position: relative;
+  }
+  .single_element {
+    text-align: center;
+    position: absolute;
+    transform: translate(30%,-50%) scale(0);
+    /* border: 1px solid black; */
+    padding: 20px 10px;
+    transition: .33s;
+    /* background-color: blueviolet; */
+  }
+  .single_element i {
+    font-size: 50px;
+    color: blue;
+  }
+  .single_element.current {
+    transform: translate(30%,-50%) scale(1);
+    transition: .33s;
+}
+.single_element:nth-child(2).current {
+  transform: translate(60%,-45%) scale(1);
+  transition: .33s;
+}
+.footer{
+  background-color: bisque;
+  padding: 50px 10px;
+}
+.footer_elements {
+	background-color: black;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	margin-right: 10px;
+	position: relative;
+	top: 72%;
+	/* right: 436%; */
+	opacity: 0.5;
+	left: -680%;
+}
+.f-current{
+  opacity: 1;
+  visibility: visible;
+}
+  

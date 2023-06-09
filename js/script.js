@@ -78,9 +78,6 @@ function answer() {
 // }
 
 // *-------------Digital clock------------------*
-
-
-
 function getDate() {
    var myDate = new Date();
    var hr,min = myDate.getMinutes() < 10 ? "0" + myDate.getMinutes() : myDate.getMinutes();
@@ -99,14 +96,51 @@ function getDate() {
 //    document.getElementsByClassName('periods')[0].innerHTML = period;
  var myDay = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
  var myMonth = ["Jan","Feb","Mar","Apr","May","June","July","Aug","Sep","Oct","Nov","Dec"]
- var day = myDate.getDay();
+ var day = myDate.getDate();
  var currDay = myDay[myDate.getDay()] + ',' + myMonth[myDate.getMonth()] + "  " + day;
  document.getElementsByClassName('dates')[0].innerHTML = currDay;
 
 
 }
-
 getDate();
 setInterval(() => {
     getDate(); 
 }, 1000);
+
+// *-------------slide show------------------*
+
+const slideElements = document.querySelectorAll(".single_element");
+console.log(slideElements);
+var slideCount = 1;
+setInterval(() => {
+    slideCount++;
+    var currentElement = document.getElementsByClassName('current')[0];
+    currentElement.classList.remove('current');
+    if (slideCount > slideElements.length) {
+        slideElements[0].classList.add('current');
+        slideCount = 1;
+       } else {
+        currentElement.nextElementSibling.classList.add('current');
+    } 
+}, 1000);
+
+
+// *-------------footer------------------*
+
+const footerElements = document.querySelectorAll(".footer_elements");
+console.log(footerElements)
+var countElements = 1;
+setInterval(() => {
+    countElements++;
+    var footerCurrent = document.getElementsByClassName('f-current')[0];
+    footerCurrent.classList.remove('f-current');
+    if (countElements > footerElements.length) {
+        footerElements[0].classList.add('f-current');
+        countElements = 1;
+       } else {
+        footerCurrent.nextElementSibling.classList.add('f-current');
+    }
+    
+}, 1000)
+
+
