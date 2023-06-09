@@ -1,465 +1,50 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    header{
-        padding: 10px 0;
-    }
-    .logo{
-        width: 125px;
-    }
-    .menu li a{
-        font-size: 20px;
-        padding: 10px 0 0 !important;
-        text-align: left;
-      }
-      .cdt {
-        margin: 10px 0 0;
-    } 
-    /* slider start */
-    .s_text {
-      margin: 100px 0 140px;
-    }
-    .s_text h1 {
-      font-size: 35px;
-    }
-    .s_text p {
-      padding: 50px 20px 50px 0px;
-    }
-    .c_ind {
-      bottom: -2px;
-      left: 12.5%;
-   }
-   .ccp {
-    left: 2%;
-   }
-    .ccn {
-      right: 61%;
-    }
-    /* service start */
-    .service {
-      padding: 80px 0px 80px;
-    }
-    .card {
-      padding: 0px 0px 20px;
-      margin: 20px;
-    }
-    .card_text h2::after {
-      left: 40%;
-    }
-    .ctext_btn {
-      margin-left: 10%;
-    }
-    /* about :start */
-    .about {
-      padding: 0 0 50px;
-    }
-    .about_img {
-      width: 275px;
-      margin: 0 auto;
+  .footer_elements {
+    margin-right: 9px;
+    top: 89%;
+    left: -308%;
   }
-    .about_text {
-      margin: 35px 0;
-  }
-    .about_text_p1 {
-      margin: 25px 0;
-      word-spacing: 0px;
-    }
-    .about_text_p2 {
-      word-spacing: 0px;
-  }
-    .ab_btn {
-      margin-top: 35px;
-      width:170px;
-    }
-    .ab_btn:hover::after {
-      left: 4px;
-  }
-    /* activities start */
-    .activities {
-      padding: 60px 0 80px;
-    }
-    .act_top {
-      margin-bottom: 0;
-    }
-  .act_button ul li:last-child {
-  margin-left: 80px;
-  }
-    .act_card {
-      box-shadow: rgba(0, 0, 0);
-      padding: 0 !important;
-    }
-    .act_card:hover .actc_body{
-      top:64%;
-    }
-    .actc_body::after {
-      top: -124%;
-      left: 40%;
-  }
-  /* testamonial start */
-  .testimonial {
-    padding: 70px 0 60px;
-  }
-  .t_top {
-    margin-bottom: 0px !important;
-}
-.test_inner-p {
-  margin: 20px 0 35px;
-}
-  .inner_top i {
-  font-size: 35px;
-}
-.inner_top-p {
-   margin-top: 8px;
-}
-/* team start */
-.team{
-  padding-bottom: 60px;
-  }
-.card_inner {
-  margin-top: 20px;
-  width: 85%;
-  margin: 20px auto 0;
-}
-/* pricing strat */
-.pricing {
-  padding: 70px 0;
-}
-.heading {
-  left: 0px;
-}
-.price_inner {
-  margin-top: 25px;
-}
-.pi_text ul {
-  padding: 0px;
-}
-.pi_text-h2 span {
-  font-size: 35px;
-}
-.p_btn {
-  margin-top: 15px;
-  width: 250px;
-  margin: 15px auto 0;
-}
-/* slider 02 strat */
-.carousal_pn_btn button {
-  width: 51.6%;
-  transform: rotate(0deg);
-  margin-left: -59px;
-}
-.carousal_pn_btn button:last-child {
-  top: 101%;
-  left: 63%;
-}
-.carousal_pn_btn button:first-child {
-  top: 101%;
-  left: 22%;
-}
-.s2_ind {
-  transform: rotate(0deg);
-  margin-left: 40%;
-  margin-bottom: -18%;
-}
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* header start */
-header {
-    padding: 15px 0;
-}
-.menu li a{
-    font-size: 20px;
-    padding: 10px 0 0 !important;
-    text-align: left;
-}
-.cdt {
-    margin: 10px 0 0;
-} 
-/* slider start */
-.s_text {
-  margin: 100px 0 140px;
-}
-.s_text h1 {
-  font-size: 42px;
-}
-.s_text p {
-  padding: 50px 20px 50px 0px;
-}
-.c_ind {
-  bottom: -10px;
-  left: 9.5%;
-}
-.ccn {
-  right: 75%;
-}
-/* service start */
-.service {
-  padding: 80px 0px 80px;
-}
-.card {
-  padding: 0px 48px 30px;
-  margin: 20px;
-}
-.card_text h2::after {
-  left: 45%;
-}
-.ctext_btn {
-  margin-left: 25%;
-}
-/* about :start */
-.about {
-  padding: 0 0 50px;
-}
-.about_img {
-  width: 450px;
-  margin: 0 auto;
-}
-.about_text {
-  margin: 35px 0;
-}
-.about_text_p1 {
-  margin: 25px 0;
-  word-spacing: 9px;
-}
-p.about_text_p2 {
-  word-spacing: 9px;
-}
-.ab_btn {
-  margin-top: 35px;
-}
-/* activities start */
-.activities {
-  padding: 60px 0 80px;
-}
-.act_top {
-  margin-bottom: 0;
-}
-.act_card {
-  box-shadow: rgba(0, 0, 0);
-  padding: 0 !important;
-}
-.act_card:hover .actc_body{
-  top:80%;
-}
-.act_button{
-  padding: 0 30px;
-}
-.act_button ul li:nth-child(4) {
-  margin-left: 70px;
-}
-.actc_body::after {
-  top: -220%;
-}
-  /* testamonial start */
-  .testimonial {
-    padding: 70px 0 60px;
+
+  .footer_elements {
+    margin-right: 6px;
+    top: 85%;
+    left: -680%;
   }
-  .t_top {
-    margin-bottom: 0px !important;
-}
-.test_inner-p {
-  margin: 20px 0 35px;
-}
-  .inner_top i {
-  font-size: 35px;
-}
-.inner_top-p {
-   margin-top: 4px;
-}
-/* team start */
-.team {
-  padding: 60px 0;
-}
-.card_inner {
-  margin-top: 20px;
-}
-/* pricing strat */
-.pricing {
-  padding: 70px 0;
-}
-.heading {
-  left: -40px;
-}
-.price_inner {
-  margin-top: 25px;
-}
-.pi_text ul {
-  padding: 0px;
-}
-.pi_text {
-  padding: 10px 15px 30px;
-}
-.p_btn{
-  margin-top: 20px;
-}
-.pi_text-h2 span {
-  font-size: 35px;
-  color: #333333;
-}
-/* slider 02 strat */
-.carousal_pn_btn button {
-  width: 54.6%;
-  transform: rotate(0deg);
-  margin-left: -105px;
-}
-.carousal_pn_btn button:last-child {
-  top: 101%;
-  left: 63%;
-}
-.carousal_pn_btn button:first-child {
-  top: 101%;
-  left: 22%;
-}
-.s2_ind {
-  transform: rotate(0deg);
-  margin-left: 41.8%;
-  margin-bottom: -11%;
-}
-      
 }
 
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  /* header section start */
-  .menu li a{
-     padding: 10px 0 0 !important;
-     text-align: left;
+  .footer_elements {
+    margin-right: 5px;
+    top: 79%;
+    left: -345%;
   }
-  .c_ind {
-    bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    left: 8.5%;
-    align-items: center;
-    width: 46px;
-}
-  .ccn {
-    right: 80%;
-}
-  /* service css */
-  .ctext_btn {
-    margin-left: 19%;
-}
-  .card_text h2::after {
-    left: 42%;
-}
-.card {
-  padding: 0px 0px 0px;
-  margin-top: 40px;
-}
-.act_card:hover .actc_body {
-  top: 75%;
-}
-.act_button{
-  padding: 0 130px;
-}
-.act_button ul li:nth-child(4) {
-  margin-left: 80px;
-}
-.actc_body::after {
-  top: -140%;
-}
-.dropdown {
-  margin: 15px 0;
-}
-/* testamonial start */
-.testimonial {
-  padding: 70px 0 80px;
-}
-/* team start */
-.card_inner {
-  margin-top: 20px;
-}
-/* pricing start */
-.price_inner{
-  margin-top: 20px;
-}
-.pi_text {
-  padding: 10px 15px 25px;
-}
-.pi_text ul {
-  padding: 10px 0;
-}
-.p_btn {
-  width: 250px;
-  margin: 0 auto;
-}
-/* slider 02 start */
-.s2_ind {
-  margin-left: 91%;
-  margin-bottom: 37%;
-}
-.carousal_pn_btn button {
-  width: 38%;
-  margin-left: -11%;
-  margin-top: 12px;
-}
-
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .s_btn {
-    width: 185px;
-}
-  .ctext_btn {
-    margin-left: -3%;
-}
-.c_ind {
-  bottom: 6px;
-  left: 7.5%;
-}
-.ccn {
-  right: 83%;
-}
-/* team start */
-.team{
-  padding-bottom: 60px;
-  }
-.c_text {
-  padding: 15px 0px 15px 35px;
-  background-color: #fff;
-}
-/* pricing start */
-.heading {
-  left: -35px;
-}
-/* slider 02 start */
-.s2_ind {
-  margin-left: 91.8%;
-  margin-bottom: 18%;
-}
-.carousal_pn_btn button {
-  width: 20.5%;
-  margin-left: -26px;
+.footer_elements {
+	margin-right: 15px;
+	top: 80%;
+	left: -758%;
 }
 
 }
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-
+  .footer_elements {
+    margin-right: 10px;
+    top: 79%;
+    left: -950px;
+  }
 }
 
 /* Extra extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1400px) {
-  .card_text h2::after {
-    left: 40%;
-}
-.ctext_btn {
-  margin-left: 12%;
-}
-.act_card:hover .actc_body {
-  top: 78%;
-}
-.about_text_p1 {
-  margin: 50px 0;
-  line-height: 30px;
-}
-.about_text_p2{
-  margin-bottom: 60px;
-  line-height: 30px;
-}
-.carousal_pn_btn button:first-child {
-  top: 20%;
-}
+
 }
